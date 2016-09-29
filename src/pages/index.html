@@ -5,10 +5,10 @@
 
 <div class="top-bar" id="responsive-menu">
     <div class="top-bar-left center">
-      <ul class="vertical medium-horizontal menu oswald-large">
-        <li><a class="white" href="#">Trailer</a></li>
+      <ul class="vertical medium-horizontal menu oswald-large" data-magellan>
+        <li><a class="white" href="#trailer">Trailer</a></li>
         <li><a class="white" href="#synopsis">Synopsis</a></li>
-        <li><a class="white" href="#">Gallery</a></li>
+        <li><a class="white" href="#gallery">Gallery</a></li>
         <li><a class="white" href="#">Credits</a></li>
         <li><a class="white" href="#">Contact</a></li>
       </ul>
@@ -28,14 +28,14 @@
 </div>
 
 <div class="synopsis">
-  <div class="row">
+  <div class="row small-collapse medium-collapse large-collapse xlarge-collapse expanded">
     <div class="large-6 medium-6 columns">
-      <h3 id="synopsis" class="section-title">Synopsis</h3>
-      <div class="normal-p">
-        <p>In Buenos Aires a group of acclaimed dancers create the first Contemporary National Company of Dance under their collective leadership. This is the story of four talented dancers, Ernesto, Bettina, Victoria and Pablo, along six years of their journey.</p>
-        <p>We follow their lives, we attend their rehearsals and performances in the emblematic National Library building as well as their premiere and backstage in the historical National Theatre of Cervantes. They expose their dreams and contradictions as dancers, individuals and members of a Company that is founded on collective decision-making. We observe the fulfillment of the entire dance community’s biggest dream: the public demand for a National Dance Law.</p>
-        <p>Original folklore songs and Latin American contemporary music accompany the choreographies and the narrative, which reveal the beauty and strength of dance through the life and struggle of a group of dancers.</p>
-      </div>
+        <h1 id="synopsis" data-magellan-target="synopsis" class="section-title white text-center">Synopsis</h1>
+        <div class="normal-p large-12 synopsis-text">
+          <p>In Buenos Aires a group of acclaimed dancers create the first Contemporary National Company of Dance under their collective leadership. This is the story of four talented dancers, Ernesto, Bettina, Victoria and Pablo, along six years of their journey.</p>
+          <p>We follow their lives, we attend their rehearsals and performances in the emblematic National Library building as well as their premiere and backstage in the historical National Theatre of Cervantes. They expose their dreams and contradictions as dancers, individuals and members of a Company that is founded on collective decision-making. We observe the fulfillment of the entire dance community’s biggest dream: the public demand for a National Dance Law.</p>
+          <p>Original folklore songs and Latin American contemporary music accompany the choreographies and the narrative, which reveal the beauty and strength of dance through the life and struggle of a group of dancers.</p>
+        </div>
     </div>
       <div class="large-6 medium-6 columns">
         <img src="assets/img/25.jpg"></img>
@@ -43,10 +43,11 @@
   </div>
 </div>
 
-<!-- <div class="carrousel"> -->
+<div class="carrousel">
   <div class="row">
+    <h1 class="very-dark-gray text-center section-title" id="gallery" data-magellan-target="gallery">Gallery</h1>
     <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
-      <ul class="orbit-container">
+      <ul class="orbit-container" \>
         <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
         <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
         <li class="is-active orbit-slide">
@@ -76,158 +77,56 @@
   </div>
 </div>
 
-
-<div class="row">
-  <div class="flex-video widescreen vimeo">
-    <iframe src="https://player.vimeo.com/video/106609478" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  </div>
-</div>
-
-
-
-
-<div class="row">
-  <div class="large-12 columns">
-    <div class="callout">
-      <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-      <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-      <p>Once you've exhausted the fun in this document, you should check out:</p>
-      <div class="row">
-        <div class="large-4 medium-4 columns">
-          <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-        </div>
-        <div class="large-4 medium-4 columns">
-          <p><a href="http://zurb.com/university/code-skills">Foundation Code Skills</a><br />These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
-        </div>
-        <div class="large-4 medium-4 columns">
-          <p><a href="http://foundation.zurb.com/forum">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowlege.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-4 medium-4 medium-push-2 columns">
-          <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-        </div>
-        <div class="large-4 medium-4 medium-pull-2 columns">
-          <p><a href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-        </div>
-      </div>
+<div class="trailer">
+  <div class="row">
+    <h1 class="section-title text-center white">Trailer</h1>
+    <div class="flex-video widescreen vimeo">
+      <iframe src="https://player.vimeo.com/video/106609478" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
   </div>
 </div>
 
-<div class="row">
-  <div class="large-8 medium-8 columns">
-    <h5>Here&rsquo;s your basic grid:</h5>
-    <!-- Grid Example -->
-
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="primary callout">
-          <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.callout element so you can see where the columns are - it's not required at all for the grid.</p>
-        </div>
+<div class="credits">
+  <div class="row">
+    <h1 class="very-dark-gray section-title text-center">Credits</h1>
+    <dl>
+      <div class="large-6 columns text-right">
+        <dt class="credit-title">Year</dt>
+        <dd>2015</dd>
+        <dt class="credit-title">Duration</dt>
+        <dd>72'</dd>
+        <dt class="credit-title">Country</dt>
+        <dd class="credit-item">Argentina</dd>
+        <dd class="credit-item">Greece</dd>
+        <dt class="credit-title">Written & Directed by:</dt>
+        <dd class="credit-item">Julia Martinez Heiman</dd>
+        <dd class="credit-item">Konstantina Bousmpoura</dd>
+        <dt class="credit-title">Director of photography</dt>
+        <dd class="credit-item">Pigu Gómez (ADF)</dd>
+        <dt class="credit-title">Editor</dt>
+        <dd class="credit-item">Victoria Lastiri</dd>
+        <dt class="credit-title">Music</dt>
+        <dd class="credit-item">Analía Rosenberg</dd>
       </div>
-    </div>
-    <div class="row">
-      <div class="large-6 medium-6 columns">
-        <div class="primary callout">
-          <p>Six columns</p>
-        </div>
+      <div class="large-6 columns">
+        <dt class="credit-title">Sound Designer</dt>
+        <dd class="credit-item">Nicolás Volonté</dd>
+        <dt class="credit-title">Graphic designer</dt>
+        <dd class="credit-item">Natalia Laclau</dd>
+        <dt class="credit-title">Still photographer</dt>
+        <dd class="credit-item">Marcelo Raggone</dd>
+        <dd class="credit-item">Nadia Villanueva</dd>
+        <dd class="credit-item">Javier Fuentes</dd>
+        <dd class="credit-item">Nicolás Fernández</dd>
+        <dt class="credit-title">Associate producer</dt>
+        <dd class="credit-item">Panos Bisdas</dd>
+        <dt class="credit-title">Executive Producers</dt>
+        <dd class="credit-item">Nancy Kokolaki</dd>
+        <dd class="credit-item">Nikos Moustakas</dd>
+        <dt class="credit-title">Producers</dt>
+        <dd class="credit-item">Julia Martínez Heiman</dd>
+        <dd class="credit-item">Konstantina Bousmpoura</dd>
       </div>
-      <div class="large-6 medium-6 columns">
-        <div class="primary callout">
-          <p>Six columns</p>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="large-4 medium-4 small-4 columns">
-        <div class="primary callout">
-          <p>Four columns</p>
-        </div>
-      </div>
-      <div class="large-4 medium-4 small-4 columns">
-        <div class="primary callout">
-          <p>Four columns</p>
-        </div>
-      </div>
-      <div class="large-4 medium-4 small-4 columns">
-        <div class="primary callout">
-          <p>Four columns</p>
-        </div>
-      </div>
-    </div>
-
-    <hr />
-
-    <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-    <form>
-      <div class="row">
-        <div class="large-12 columns">
-          <label>Input Label</label>
-          <input type="text" placeholder="large-12.columns" />
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-4 medium-4 columns">
-          <label>Input Label</label>
-          <input type="text" placeholder="large-4.columns" />
-        </div>
-        <div class="large-4 medium-4 columns">
-          <label>Input Label</label>
-          <input type="text" placeholder="large-4.columns" />
-        </div>
-        <div class="large-4 medium-4 columns">
-          <div class="row collapse">
-            <label>Input Label</label>
-            <div class="input-group">
-              <input class="input-group-field" type="text" placeholder="input-group" />
-              <span class="input-group-label">.com</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-12 columns">
-          <label>Select Box</label>
-          <select>
-            <option value="husker">Husker</option>
-            <option value="starbuck">Starbuck</option>
-            <option value="hotdog">Hot Dog</option>
-            <option value="apollo">Apollo</option>
-          </select>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-6 medium-6 columns">
-          <label>Choose Your Favorite</label>
-          <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-          <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-        </div>
-        <div class="large-6 medium-6 columns">
-          <label>Check these out</label>
-          <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-          <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-12 columns">
-          <label>Textarea Label</label>
-          <textarea placeholder="small-12.columns"></textarea>
-        </div>
-      </div>
-    </form>
-  </div>
-
-  <div class="large-4 medium-4 columns">
-    <h5>Try one of these buttons:</h5>
-    <p><a href="#" class="small button">Simple Button</a><br/>
-    <a href="#" class="medium success button">Success Btn</a><br/>
-    <a href="#" class="medium alert button">Alert Btn</a><br/>
-    <a href="#" class="medium secondary button">Secondary Btn</a></p>
-    <div class="callout">
-      <h5>So many components, girl!</h5>
-      <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-      <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>
-    </div>
+    </dl>
   </div>
 </div>

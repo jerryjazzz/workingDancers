@@ -606,6 +606,11 @@ $open-sans: 'Open Sans', sans-serif;
   color: $white;
 }
 
+//very-dark-gray
+.very-dark-gray {
+  color: $very-dark-gray;
+}
+
 //Oswald font
 .oswald-large {
   font-family: $oswald;
@@ -640,14 +645,19 @@ $open-sans: 'Open Sans', sans-serif;
 
 .section-title {
   padding: 1em 0;
-  color: $white;
   font-family: $oswald;
+  text-transform: uppercase;
 }
 
 .normal-p {
   color: $white;
   font-family: $open-sans;
   font-weight: 300;
+  font-size: 90%;
+  padding: 1em 0;
+  @include breakpoint(medium) {
+    font-size: 120%;
+  }
 }
 
 //Synopsis styles
@@ -655,11 +665,36 @@ $open-sans: 'Open Sans', sans-serif;
   background-color: $very-dark-gray;
 }
 
-.synopsis-bg {
-  padding: 0;
+.synopsis-text {
+  padding: 1em 2em;
 }
 
 //Carrousel
 .carrousel {
-  padding: 2em;
+  background-color: #f0f0f0;
+  padding: 3em 1em;
+}
+
+//Trailer
+.trailer {
+  background-color: $very-dark-gray;
+  padding: 2em 0;
+  @include breakpoint(medium) {
+    padding: 2em 2em;
+  };
+}
+
+//Credits
+.credits {
+  background-color: #f0f0f0;
+  padding: 3em 3em;
+}
+
+.credit-title{
+  font-family: $oswald;
+}
+
+.credit-item {
+  text-transform: uppercase;
+  font-family: $open-sans;
 }
