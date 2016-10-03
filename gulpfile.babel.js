@@ -58,6 +58,11 @@ function pages() {
     .pipe(gulp.dest(PATHS.dist));
 }
 
+// // Add Foundation Icons
+// gulp.src('client/assets/scss/foundation-icons.*')
+//     .pipe(gulp.dest('./assets/css/'))
+
+
 // Load updated HTML templates and partials into Panini
 function resetPages(done) {
   panini.refresh();
